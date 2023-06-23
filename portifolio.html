@@ -1,0 +1,83 @@
+Experimente agor...Tente novamente mais tardeNão mostrar novamente
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portifolio</title>
+    <link rel="stylesheet" type="text/css" href="portifolio.css" media="screen" />
+</head>
+<body id="body">
+    <div class="header" id="header">
+        <button onclick="toggleSidebar()"class="button-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </button>     
+            <div class="menu" id="menu">  
+                <button onclick="toggleSidebar()" class="button-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                      </svg>
+                </button>
+                <a href="https://github.com/LorayneNeves"> <img src="githubimg.png" height="30"class="contato1"></a>
+                <a href="https://linkedin.com/in/lorayne-neves"> <img src="linkedin.webp"height="50"class="contato2"></a>
+                <a href="mailto:lorayne3.8neves@outlook.com?subject=Questions"> <img src="mailimg.png" height="25" class="contato3"></a>
+            </div>      
+        </div>
+        <main tabindex="0" class="content" onfocus="closeSidebar()" id="content">     
+        <section class="intro"></section>
+            <div class="intro-sobre">
+                <h3 class="intro-sobre-1">Olá, meu nome é</h3>
+                <h1 class="name">Lorayne Neves</h1>
+                <p class="intro-sobre-1">Estudante de Sistemas de Informação,</p>
+                <p class="intro-sobre-1">Analista de HelpDesk na empresa Zema</p>
+            </div>
+            <div class="intro-img">
+                 <img src="eu2.jpeg" class="intro-img1">
+            </div>
+        </section>
+            <section>
+            <div class="sobre-mim">
+                <h1 class="h-sobre-mim">Sobre mim</h1>
+                <p class="p-sobre-mim">Me chamo Lorayne e sou apaixonada por tecnologia. Meu primeiro contato com a área foi em 2018, no curso de Hardware. <br>
+                    <br>Apesar do interesse na área, só fui dar devido foco em 2022, quando pude dar inicio aos estudos na faculdade. <br>
+                    <br>Desde então eu venho me apaixonando cada vez mais pela área, especialmete pela área de desenvolvimento e programação! <br></p>
+            </div>
+        </section>
+        <section>
+            <div class="soft-s">
+                <h1 class="h-soft">🎮 Soft Skills 🎮</h1>
+                <p class="p-soft">🔸Criatividade</p>
+                <p class="p-soft">🔸Pensamento analítico</p>
+                <p class="p-soft">🔸Trabalho em equipe</p>                
+        </div>
+        <div class="conhecimentos">
+            <h1 class="h-conhecimentos"><b>💡 Conhecimentos 💡</b></h1>
+            <p class="p-conhecimentos">🔹HTML e CSS</p>
+            <p class="p-conhecimentos">🔹JavaScript</p>
+            <p class="p-conhecimentos">🔹C Sharp</p >
+            <p class="p-conhecimentos">🔹Metodologia Scrum</p>
+        </div>
+        <div class="habilidades">
+            <h1 class="h-habilidades"><b>⚡️ Habilidades ⚡️</b></h1>            
+            <p class="p-habilidades">🔸Informática</p>
+            <p class="p-habilidades">🔸Lógica de programação</p >
+            <p class="p-habilidades">🔸Word e Excel - básico</p>
+        </div>
+        <div class="certificados">
+            <h1 class="h-certificados"><b>🎓 Certificados 🎓</b></h1>           
+            <p class="p-certificados">🔹Inglês - intermediário</p>
+            <p class="p-certificados">🔹Hardware - Montagem e Manutenção de Computadores</p>
+        </div>
+        </section>
+        <div class="rodape">
+            <a class="link-top" link-topo href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16" color="rgb(255, 157, 203)">
+                <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+              </svg>
+        </div>
+    </main>
+    <script src="portifolio.js"></script>
+</body>
