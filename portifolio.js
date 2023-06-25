@@ -10,6 +10,8 @@ sr.reveal('.h-habilidades', {duration: 3000 , rotate: {x:80,y:0,z:30}
 });
 sr.reveal('.h-certificados', {duration: 3000 , rotate: {x:80,y:0,z:30}
 });
+sr.reveal('.h-lorayne', {duration: 3000 , rotate: {x:80,y:0,z:30}
+});
 
 
 function typeWriter(elemento){
@@ -62,3 +64,4 @@ window.addEventListener('resize', function(event){
         toggleSidebar();
     }
 });
+

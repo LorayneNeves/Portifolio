@@ -8,7 +8,7 @@
 
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #0F0020;
     font-size: 100%;
 }
 .header,
@@ -18,12 +18,13 @@ body{
     align-items: center;
     gap:5em;
     z-index: 10;
-}.header{
-    justify-content: space-between;
-    padding: 0 10%;
-    height: 3.5em;
+}.contatos{
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content: right;
+    margin-top: 70px;
+    margin-left: 80px;
 }
-
 .content{
     padding-top: 5em;
     height: 100vh;
@@ -85,45 +86,29 @@ body{
     color: rgb(255, 255, 255) ;
     font-family:'Roboto Mono', monospace;
 }
-.contato1{
-    border-radius: 50%;
-    border-width: 0.5px;
-    height: 40px;
-    height: 40px;
-}
-.contato1:hover{  
-    border-radius: 40%;
-    transition: all 0.5s;
+.contato{
+    height: 24px;
 }
 .contato2{
-    border-width: 0.5px;
-    height: 60px;
-    height: 60px;
+    height: 30px;
 }
 .contato3{
-    border-radius: 30%;
-    display: flex;
-    border-width: 0.5px;
-    height: 36px;
-    height: 36px;
-}
-.contato3:hover{   
-    border-radius: 0%;
-    transition: all 0.5s;
+    height: 25px;
 }
 .intro-img{
     display:flex;
     justify-content:center;
-    height: 300px;
+    height: 350px;
 }
+
 .intro-img1
 {
     border-radius: 50%;
     height: 400px;
     height: 400px;
-    border-style:groove;
-    border-color:rgba(255, 16, 99, 0.884);
-    border-width: 5px;
+    border-style:solid;
+    border-color: rgb(255, 157, 203);
+    border-width:4px;
     
 }
 
@@ -145,7 +130,7 @@ body{
 .name{
     color: rgb(255, 157, 203);
     font-family:'Play', sans-serif;
-    font-size: 80px;
+    font-size: 130px;
 }
 .intro-img1,.h-sobre-mim , .h-soft , .h-conhecimentos
 {
@@ -183,7 +168,7 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.h-soft, .h-conhecimentos, .h-habilidades, .h-certificados{
+.h-soft, .h-conhecimentos, .h-habilidades, .h-certificados {
     border-top: 0.2px solid rgba(255, 16, 99, 0.884);
     padding: 20px;
     font-size: 40px;
