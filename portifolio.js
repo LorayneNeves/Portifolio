@@ -26,7 +26,7 @@ function typeWriter(elemento){
 const titulo = document.querySelector('h1');
 
 typeWriter(titulo);
-
+/*
 var header = document.getElementById('header');
 var menus = document.getElementById('menu');
 var content = document.getElementById('content');
@@ -64,4 +64,4 @@ window.addEventListener('resize', function(event){
         toggleSidebar();
     }
 });
-
+*/
