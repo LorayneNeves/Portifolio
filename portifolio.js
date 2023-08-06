@@ -12,8 +12,26 @@ sr.reveal('.h-certificados', {duration: 3000 , rotate: {x:80,y:0,z:30}
 });
 sr.reveal('.h-lorayne', {duration: 3000 , rotate: {x:80,y:0,z:30}
 });
+const button = document.querySelector('.chat-button');
+const form = document.querySelector('.page-form');
+const button1 = document.querySelector('.jogo-button');
+const form1 = document.querySelector('.pag-form');
 
+const ChatbotButton = (event) => {
 
+    event.preventDefault();
+    window.location.href = '/Primeiro-projeto/Primeiro-projeto/index.html';  
+}
+const JogoButton = (event) => {
+
+    event.preventDefault();
+    window.location.href = '/Projeto-Jogo-da-Memoria/index.html';
+  
+}
+  
+form.addEventListener('submit', ChatbotButton);
+form1.addEventListener('submit', JogoButton);
+  
 
 
 let count =1;
