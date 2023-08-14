@@ -1,17 +1,24 @@
+var bodybutton = document.getElementById("body-button");
+var body = document.getElementById("body");
+
+bodybutton.addEventListener("click", function() {
+
+    body.classList.toggle("hide");
+
+});
+
 window.sr = ScrollReveal({reset: true});
 
-sr.reveal('.intro-img1', {duration: 3000 , rotate: {x:100,y:100,z:0}
+sr.reveal('.intro-img1', {duration: 4000 , rotate: {x:100,y:100,z:0}
 });
-sr.reveal('.h-soft', {duration: 3000 , rotate: {x:100,y:100,z:0}
+sr.reveal('.soft-s , .h-soft', {duration: 4000 , rotate: {x:-30,y:-90,z:-30}
 });
-sr.reveal('.h-conhecimentos', {duration: 3000 , rotate: {x:100,y:100,z:0}
+sr.reveal('.conhecimentos , .h-conhecimentos', {duration: 4000 , rotate: {x:-30,y:-90,z:-30}
 });
-sr.reveal('.h-habilidades', {duration: 3000 , rotate: {x:80,y:0,z:30}
+sr.reveal('.certificados , .h-certificados ', {duration: 4000 , rotate: {x:-30,y:-90,z:-30}
 });
-sr.reveal('.h-certificados', {duration: 3000 , rotate: {x:80,y:0,z:30}
-});
-sr.reveal('.h-lorayne', {duration: 3000 , rotate: {x:80,y:0,z:30}
-});
+sr.reveal('.section-projeto , .h-projetos', {duration: 4000, rotate: {x:-30,y:-90,z:-30}
+})
 const button = document.querySelector('.chat-button');
 const form = document.querySelector('.page-form');
 const button1 = document.querySelector('.jogo-button');
@@ -106,5 +113,14 @@ window.addEventListener('resize', function(event){
         showSidebar = true;
         toggleSidebar();
     }
+});
+
+var softbutton = document.getElementById("h-soft");
+
+softbutton.addEventListener("click", function() {
+
+    var softs = document.getElementById("soft-s");
+    softs.classList.toggle(".hide");
+
 });
 */
